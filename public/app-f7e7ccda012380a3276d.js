@@ -3565,6 +3565,10 @@
                 type: "text/javascript",
                 "data-domain-script": "38a1183f-fab2-416e-8cc5-3866e9568899",
               }),
+              r.createElement("script",
+                {type: "text/javascript"},
+                "$('#gatsby-focus-wrapper > div > footer > div > div ul li:not(.pt-1)').click(() => {setInterval(() => {window.location.reload()},100)})"
+              ),
               r.createElement(
                 "script",
                 { type: "text/javascript" },
