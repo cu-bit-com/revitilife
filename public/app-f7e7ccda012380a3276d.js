@@ -3567,7 +3567,7 @@
               }),
               r.createElement("script",
                 {type: "text/javascript"},
-                "$('#gatsby-focus-wrapper > div > footer > div > div ul li:not(.pt-1)').click(() => {window.location.href = window.location.href})"
+                "$('#gatsby-focus-wrapper > div > footer > div > div ul li:not(.pt-1)').click(() => {setTimeout(() => {window.location.reload()}, 100)})"
               ),
               r.createElement(
                 "script",
